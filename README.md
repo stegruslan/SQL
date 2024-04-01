@@ -7,3 +7,20 @@
 - product ( Товар )
 - order ( Заказ )
 
+Каждый стеллаж и товар имеет уникальный номер (id).
+
+
+
+
+
+
+
+---
+## Пример создание таблицы:
+```product_table_create = """
+CREATE TABLE IF NOT EXISTS product (
+id SERIAL PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+article INTEGER UNIQUE NOT NULL
+)
+"""```
