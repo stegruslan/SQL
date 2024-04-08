@@ -24,3 +24,5 @@ name VARCHAR(50) NOT NULL,
 article INTEGER UNIQUE NOT NULL
 )
 ```
+
+После создания базы вызываем в контекстном менеджере еоманду conn commit 
